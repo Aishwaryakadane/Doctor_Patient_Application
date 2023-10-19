@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class SendEmail {
     private static final String EMAIL_USERNAME = "kadaneaishwarya@gmail.com";
-    private static final String EMAIL_PASSWORD = "qakk jwdy jgjz bcha";
+    private static final String EMAIL_PASSWORD = "";
 
     public static boolean sendEmail(String toEmail, String subject, String body){
         Properties properties = new Properties();
